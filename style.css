@@ -10,7 +10,10 @@
 #container{
     width: 50%;
     margin: 1rem auto;
-    border: 1px solid black;
+    
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
 }
 textarea {
     width: 100%;
@@ -19,7 +22,6 @@ textarea {
     /* margin: 1rem auto; */
     box-sizing: border-box;
     padding: 1rem;
-    font-family: 'Josefin Sans', sans-serif;
 }
 
 #output {
