@@ -1,16 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,500&family=RocknRoll+One&display=swap');
 
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 50%;
+    margin: 1rem auto;
+    border: 1px solid black;
+}
 textarea {
-    width: 80%;
-    height: 10vh;
+    width: 100%;
+    height: 25vh;
     display: block;
-    margin: 1rem;
+    /* margin: 1rem auto; */
+    box-sizing: border-box;
     padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #output {
     border: 1px solid black;
-    height: 10vh;
-    width: 80%;
-    margin: 1rem;
+    height: 15vh;
+    width: 100%;
+    /* margin: 1rem; */
     padding: 1rem;
+    box-sizing: border-box;
+}
+
+.heading{
+    background-color:#FCD34D;
+    text-align: center;
+    padding: 1.3rem 0rem;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+#btn-translate{
+    display: block;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+    width: 30%;
+    background-color: #FCD34D;
+    border: 1px solid white;
+    outline: none;
+    /* margin-left: 3rem ; */
+}
+
+footer{
+    background-color: #FCD34D;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding: 1rem 10rem;
+}
+
+#footer-content{
+    margin: 1rem 10rem;
 }
